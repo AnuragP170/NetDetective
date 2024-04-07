@@ -80,7 +80,6 @@ def main(nginx_dir, system_log_dir, output_dir):
             'Unusual Request Methods': r'(PUT|DELETE|TRACE|CONNECT)',
             'Error Codes': r'HTTP/[0-9\.]+"\s(4\d\d|5\d\d)\s',
             'Unusual File Types and Paths': r'(\.bak|\.config|\.db|\.sql|/etc/passwd|/etc/shadow)',
-            'Command Injection': r'(;|\||`|&|\$|\*|\{|\}|\[|\]|\^|\!)',
             'Referer Header Anomalies': r'(Referer:\s*[^http]|Referer:\s*http[^s]|Referer:\s*https[^:])',
             'Uncommon User Agents': r'(User-Agent:\s*[^Mozilla]|User-Agent:\s*[^Chrome]|User-Agent:\s*[^Safari])',
             'Suspicious Parameters': r'(\?|\&)(cmd=|exec=|command=|execute=|shell=)',

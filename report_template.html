@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Log Analysis Report</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+
+        .container {
+            width: 90%;
+            margin: 20px auto;
+            background: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+
+        h1, h2, h4 {
+            color: #444;
+        }
+
+        button {
+            background-color: #007BFF;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            margin-top: 10px;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+
+        button:hover {
+            background-color: #0056b3;
+        }
+
+        .log-content {
+            display: none;
+            background: #f8f9fa;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            padding: 10px;
+            margin-top: 5px;
+            white-space: pre-wrap; /* Preserve spaces and line breaks */
+            word-wrap: break-word; /* To prevent horizontal scrolling */
+        }
+
+        pre {
+            max-height: 300px;
+            overflow-y: auto; /* Add vertical scrollbar if content is long */
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>NetDetective - Log Analysis Report</h1><br>
+
+        <h3>Apache Server Logs</h3>
+        <div>
+            <h4>Apache Server Access Logs</h4>
+{% for date, attacks in access_logs_summary.items() %}
+    <h3>{{ date }}</h3>
+    <ul>
+    {% for attack_type, times in attacks.items() %}
+        <li>{{ attack_type }}: from {{ times['start'] }} to {{ times['end'] }}</li>
+    {% endfor %}
+    </ul>
+{% endfor %}
+            <button onclick="toggleVisibility('apache-access-logs')">View More</button>
+            <pre id="apache-access-logs" class="log-content">{{ apache_access_logs }}</pre>
+        </div>
+
+        <div>
+            <h4>Apache Server Error Logs - ModSecurity Detection</h4>
+        {% for date, attacks in error_logs_summary.items() %}
+            <h3>{{ date }}</h3>
+            <ul>
+            {% for attack_type, count in attacks.items() %}
+                <li>{{ attack_type }}: {{ count }} occurrences</li>
+            {% endfor %}
+            </ul>
+        {% endfor %}
+            <img src="events_errors_line_plot.png" width="700" alt="Description of the image"><br>
+            <button onclick="toggleVisibility('apache-error-logs')">View More</button>
+            <pre id="apache-error-logs" class="log-content">{{ apache_error_logs }}</pre>
+        </div>
+        <h2>Checking WAF configuration</h2>
+        <div>
+            <h4>ModSecurity</h4>
+            <!--button onclick="toggleVisibility('virustotal-logs')">View More</button-->
+            <pre id="waf-status">{{ waf_status }}</pre>
+        </div>
+        <div>
+            <h4>Reading modsec_audit logs</h4>
+            <pre id="modsec-summary">{{ modsec_logs_summary }}</pre>
+            <button onclick="toggleVisibility('modsec-logs')">View More</button>
+            <pre id="modsec-logs" class="log-content">{{ modsec_logs }}</pre>
+        </div>
+        <h2>MariaDB Logs</h2>
+        <div>
+            <h4>Checking privileges of Users in database</h4>
+            <button onclick="toggleVisibility('mariadb-priv-logs')">View More</button>
+            <pre id="mariadb-priv-logs" class="log-content">{{ mariadb_priv_logs }}</pre>
+        </div>
+
+        <div>
+            <h4>Checking query events in bin log</h4>
+            <button onclick="toggleVisibility('mariadb-binary-logs')">View More</button>
+            <pre id="mariadb-binary-logs" class="log-content">{{ mariadb_binary_logs }}</pre>
+        </div>
+
+        <div>
+            <h4>Checking MySQL Logs</h4>
+            <button onclick="toggleVisibility('mariadb-logs')">View More</button>
+            <pre id="mariadb-logs" class="log-content">{{ mariadb_logs }}</pre>
+        </div>
+
+        <h2>Scan for Malicious Files</h2>
+        <div>
+            <h4>Using Virus Total:</h4>
+<!--            <button onclick="toggleVisibility('virustotal-logs')">View More</button>-->
+            <pre id="virustotal-logs">{{ virustotalscan_logs }}</pre>
+        </div>
+
+    </div>
+
+
+    <script>
+        function toggleVisibility(id) {
+            var element = document.getElementById(id);
+            if (element.style.display === "none") {
+                element.style.display = "block";
+            } else {
+                element.style.display = "none";
+            }
+        }
+    </script>
+</body>
+</html>

@@ -1,0 +1,48 @@
+error.log.1,SQL Injection,timestamp:Fri Apr 05 15:13:45.753052 2024,uri:/vulnerabilities/sqli/session-input.php,client:202.166.151.1,pid:101240,referer:-
+error.log.1,SQL Injection,timestamp:Fri Apr 05 15:13:58.722910 2024,uri:/vulnerabilities/sqli/session-input.php,client:202.166.151.1,pid:101241,referer:-
+error.log.1,SQL Injection,timestamp:Fri Apr 05 15:14:05.853829 2024,uri:/vulnerabilities/sqli/session-input.php,client:202.166.151.1,pid:101242,referer:-
+error.log.1,SQL Injection,timestamp:Fri Apr 05 15:14:11.927993 2024,uri:/vulnerabilities/sqli/session-input.php,client:202.166.151.1,pid:101242,referer:-
+error.log.1,XSS,timestamp:Fri Apr 05 15:14:58.026417 2024,uri:/vulnerabilities/xss_r/index.php,client:202.166.151.1,pid:101240,referer:-
+error.log.1,XSS,timestamp:Fri Apr 05 15:14:58.200902 2024,uri:/vulnerabilities/xss_r/ss,client:202.166.151.1,pid:101240,referer:-
+error.log.1,XSS,timestamp:Fri Apr 05 15:15:01.932576 2024,uri:/vulnerabilities/xss_r/index.php,client:202.166.151.1,pid:101240,referer:-
+error.log.1,XSS,timestamp:Fri Apr 05 15:15:05.133486 2024,uri:/vulnerabilities/xss_s/index.php,client:202.166.151.1,pid:101240,referer:-
+error.log.1,XSS,timestamp:Fri Apr 05 15:15:30.778945 2024,uri:/vulnerabilities/xss_s/index.php,client:202.166.151.1,pid:101242,referer:-
+error.log.1,Local File Inclusion,timestamp:Fri Apr 05 15:15:55.393608 2024,uri:/vulnerabilities/exec/index.php,client:202.166.151.1,pid:101239,referer:-
+error.log.1,Remote Code Execution,timestamp:Fri Apr 05 15:15:55.393608 2024,uri:/vulnerabilities/exec/index.php,client:202.166.151.1,pid:101239,referer:-
+error.log.1,Local File Inclusion,timestamp:Fri Apr 05 15:21:48.453215 2024,uri:/vulnerabilities/exec/index.php,client:202.166.151.1,pid:101240,referer:-
+error.log.1,Remote Code Execution,timestamp:Fri Apr 05 15:21:48.453215 2024,uri:/vulnerabilities/exec/index.php,client:202.166.151.1,pid:101240,referer:-
+error.log.1,Local File Inclusion,timestamp:Fri Apr 05 15:22:13.132097 2024,uri:/vulnerabilities/exec/index.php,client:202.166.151.1,pid:101243,referer:-
+error.log.1,Remote Code Execution,timestamp:Fri Apr 05 15:22:13.132097 2024,uri:/vulnerabilities/exec/index.php,client:202.166.151.1,pid:101243,referer:-
+error.log.1,Local File Inclusion,timestamp:Fri Apr 05 15:59:14.725955 2024,uri:/.env,client:78.153.140.179,pid:101243,referer:-
+error.log.1,Local File Inclusion,timestamp:Fri Apr 05 16:03:41.963008 2024,uri:/.env,client:54.37.79.75,pid:101240,referer:-
+error.log.1,Local File Inclusion,timestamp:Fri Apr 05 18:41:53.346179 2024,uri:/.env,client:54.37.79.75,pid:101371,referer:-
+error.log.1,Local File Inclusion,timestamp:Fri Apr 05 18:42:26.918900 2024,uri:/.git/config,client:91.92.255.41,pid:101239,referer:-
+error.log.1,Local File Inclusion,timestamp:Fri Apr 05 18:53:52.937080 2024,uri:/.env,client:188.93.233.146,pid:101240,referer:-
+error.log.1,Local File Inclusion,timestamp:Fri Apr 05 19:51:44.800971 2024,uri:/.git/config,client:52.143.131.119,pid:101239,referer:-
+error.log.1,Local File Inclusion,timestamp:Fri Apr 05 22:41:09.320018 2024,uri:/.env,client:46.238.160.112,pid:101240,referer:-
+error.log.1,Local File Inclusion,timestamp:Fri Apr 05 23:22:53.813801 2024,uri:/.env,client:54.37.79.75,pid:101373,referer:-
+error.log.1,Local File Inclusion,timestamp:Fri Apr 05 23:29:38.010610 2024,uri:/.env,client:83.147.54.190,pid:101243,referer:-
+error.log.1,Local File Inclusion,timestamp:Fri Apr 05 23:46:39.045496 2024,uri:/.git/config,client:52.143.128.224,pid:101240,referer:-
+error.log,XSS,timestamp:Sat Apr 06 00:45:14.132769 2024,uri:/login.php/,client:119.74.129.29,pid:105449,referer:-
+error.log,XSS,timestamp:Sat Apr 06 00:45:14.320226 2024,uri:/login.php/dvwa/css/login.css,client:119.74.129.29,pid:105449,referer:-
+error.log,XSS,timestamp:Sat Apr 06 00:45:14.323823 2024,uri:/login.php/dvwa/images/login_logo.png,client:119.74.129.29,pid:105361,referer:-
+error.log,Local File Inclusion,timestamp:Sat Apr 06 02:14:01.260545 2024,uri:/.env,client:54.36.115.221,pid:105365,referer:-
+error.log,Remote Code Execution,timestamp:Sat Apr 06 03:58:38.494068 2024,uri:/cgi-bin/luci/;stok=/locale,client:185.224.128.34,pid:105364,referer:-
+error.log,Local File Inclusion,timestamp:Sat Apr 06 03:58:58.220513 2024,uri:/.env,client:54.36.115.221,pid:105363,referer:-
+error.log,Local File Inclusion,timestamp:Sat Apr 06 05:21:49.027814 2024,uri:/.env,client:54.36.115.221,pid:105449,referer:-
+error.log,Local File Inclusion,timestamp:Sat Apr 06 06:54:03.399576 2024,uri:/.env,client:54.36.115.221,pid:105365,referer:-
+error.log,Local File Inclusion,timestamp:Sat Apr 06 07:54:58.967794 2024,uri:/.env,client:54.36.115.221,pid:105841,referer:-
+error.log,Local File Inclusion,timestamp:Sat Apr 06 08:37:49.626389 2024,uri:/.env,client:54.36.115.221,pid:105841,referer:-
+error.log,Local File Inclusion,timestamp:Sat Apr 06 08:38:18.784635 2024,uri:/.env,client:4.229.241.170,pid:105449,referer:-
+error.log,Local File Inclusion,timestamp:Sat Apr 06 09:42:30.399114 2024,uri:/.git/config,client:94.156.65.188,pid:105362,referer:-
+error.log,Local File Inclusion,timestamp:Sat Apr 06 10:26:19.884253 2024,uri:/.env,client:54.36.115.221,pid:105364,referer:-
+error.log,Local File Inclusion,timestamp:Sat Apr 06 10:28:20.395171 2024,uri:/.env,client:103.145.255.242,pid:105841,referer:-
+error.log,Local File Inclusion,timestamp:Sat Apr 06 12:12:42.638045 2024,uri:/.env,client:54.36.115.221,pid:105363,referer:-
+error.log,Local File Inclusion,timestamp:Sat Apr 06 12:47:01.999814 2024,uri:/.env,client:78.153.140.177,pid:105362,referer:-
+error.log,Local File Inclusion,timestamp:Sat Apr 06 13:56:18.950670 2024,uri:/.env,client:54.36.115.221,pid:105449,referer:-
+error.log,Local File Inclusion,timestamp:Sat Apr 06 13:59:14.115232 2024,uri:/vulnerabilities/exec/index.php,client:101.127.15.128,pid:110302,referer:-
+error.log,Remote Code Execution,timestamp:Sat Apr 06 13:59:14.115232 2024,uri:/vulnerabilities/exec/index.php,client:101.127.15.128,pid:110302,referer:-
+error.log,Local File Inclusion,timestamp:Sat Apr 06 13:59:17.186364 2024,uri:/vulnerabilities/exec/index.php,client:101.127.15.128,pid:110303,referer:-
+error.log,Remote Code Execution,timestamp:Sat Apr 06 13:59:17.186364 2024,uri:/vulnerabilities/exec/index.php,client:101.127.15.128,pid:110303,referer:-
+error.log,Local File Inclusion,timestamp:Sat Apr 06 15:00:12.737945 2024,uri:/vulnerabilities/exec/index.php,client:101.127.15.128,pid:105363,referer:-
+error.log,Remote Code Execution,timestamp:Sat Apr 06 15:00:12.737945 2024,uri:/vulnerabilities/exec/index.php,client:101.127.15.128,pid:105363,referer:-

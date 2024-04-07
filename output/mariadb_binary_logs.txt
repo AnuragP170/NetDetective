@@ -1,0 +1,21 @@
+WARNING:root:
+                    Before using MARIADB 10.5.0 and MYSQL 8.0.14 versions,
+                    use python-mysql-replication version Before 1.0 version 
+=== QueryEvent ===
+Date: 2024-03-16T07:48:58
+Log position: 504
+Event size: 97
+Read bytes: 97
+Schema: b''
+Execution time: 0
+Query: ALTER USER 'root'@'localhost' IDENTIFIED BY 'password'
+
+=== QueryEvent ===
+Date: 2024-03-16T07:49:01
+Log position: 666
+Event size: 97
+Read bytes: 97
+Schema: b''
+Execution time: 0
+Query: ALTER USER 'root'@'localhost' IDENTIFIED BY 'password'
+

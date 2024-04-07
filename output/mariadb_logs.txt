@@ -1,0 +1,62 @@
+Processing log file: backup/mysql/mysql.log
+No possible SQL injection queries found.
+Processing log file: backup/mysql/mysql.log.1
+
+Possible SQL Injection Queries:
+
+Date: 24/03/16
+Time: 6:38:27
+Query: SELECT * FROM `users` WHERE user='admin' AND password='5f4dcc3b5aa765d61d8327deb882cf99'
+
+Date: 24/03/16
+Time: 6:38:37
+Query: SELECT first_name, last_name FROM users WHERE user_id = ''1 OR 1#'
+
+Date: 24/03/16
+Time: 6:38:45
+Query: SELECT first_name, last_name FROM users WHERE user_id = ''OR 1=1#'
+
+Date: 24/03/16
+Time: 7:13:27
+Query: SELECT * FROM `users` WHERE user='admin' AND password='5f4dcc3b5aa765d61d8327deb882cf99'
+
+Date: 24/03/16
+Time: 7:13:35
+Query: SELECT first_name, last_name FROM users WHERE user_id = ''OR 1=1#'
+
+Date: 24/03/16
+Time: 10:18:58
+Query: SELECT * FROM `users` WHERE user='admin' AND password='5f4dcc3b5aa765d61d8327deb882cf99'
+
+Date: 24/03/16
+Time: 15:32:06
+Query: SELECT * from user
+
+Date: 24/03/16
+Time: 15:35:22
+Query: SELECT * from user
+
+Date: 24/03/16
+Time: 15:44:02
+Query: SELECT * from user
+
+Date: 24/03/16
+Time: 15:44:28
+Query: SELECT * from user
+
+Date: 24/03/16
+Time: 15:44:42
+Query: SELECT * from user
+
+Date: 24/03/17
+Time: 1:42:59
+Query: SELECT * FROM `users` WHERE user='admin' AND password='8b9da59ab787d580867f4ff601da0235'
+
+Date: 24/03/17
+Time: 1:43:28
+Query: SELECT * FROM `users` WHERE user='admin' AND password='b52c455b864ee68c2098b2627952ee07'
+
+Date: 24/03/17
+Time: 1:43:38
+Query: SELECT * FROM `users` WHERE user='admin' AND password='85ac9dd8232abceb522be144cd075562'
+

